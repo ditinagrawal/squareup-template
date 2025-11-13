@@ -11,7 +11,7 @@ export const buttonVariants = cva(
         default: "hover:bg-secondary-15/80",
         primary: "bg-primary-50 hover:bg-primary-50/90 text-secondary-10",
         secondary: "bg-secondary-15 hover:bg-secondary-15/80",
-        outline: "border-2 border-secondary-15",
+        outline: "border-2 border-secondary-15 backdrop-blur-md",
       },
     },
     defaultVariants: {
