@@ -38,3 +38,8 @@
   --color-secondary-60: var(--secondary-60);
   --color-secondary-90: var(--secondary-90);
 }
+
+body {
+  background-color: var(--secondary-10);
+  color: #ffffff;
+}
