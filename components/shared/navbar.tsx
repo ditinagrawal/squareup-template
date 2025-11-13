@@ -10,7 +10,7 @@ export const Navbar = () => {
       <Container>
         <nav className="flex items-center justify-between">
           <Logo showText />
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <Link href="/" className={buttonVariants({ variant: "secondary" })}>
               Home
             </Link>

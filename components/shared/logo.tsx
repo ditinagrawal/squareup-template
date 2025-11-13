@@ -20,7 +20,7 @@ export const Logo = ({
         priority
         className={cn("size-10", className)}
       />
-      {showText && <span className="text-lg font-semibold">BBPixels</span>}
+      {showText && <span className="text-lg font-semibold">BB Pixels</span>}
     </div>
   );
 };
