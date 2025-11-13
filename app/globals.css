@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --primary-50: #9eff00;
+  --primary-60: #b1ff33;
+  --primary-70: #c5ff66;
+  --primary-80: #d8ff99;
+  --primary-90: #ecffcc;
+  --primary-95: #f5ffe5;
+  --primary-97: #f9fff0;
+  --primary-99: #fdfffa;
+
+  --secondary-10: #191919;
+  --secondary-15: #262626;
+  --secondary-20: #333333;
+  --secondary-30: #4c4c4d;
+  --secondary-35: #59595a;
+  --secondary-40: #656567;
+  --secondary-60: #98989a;
+  --secondary-90: #e6e6e6;
+}
+
+@theme inline {
+  --color-primary-50: var(--primary-50);
+  --color-primary-60: var(--primary-60);
+  --color-primary-70: var(--primary-70);
+  --color-primary-80: var(--primary-80);
+  --color-primary-90: var(--primary-90);
+  --color-primary-95: var(--primary-95);
+  --color-primary-97: var(--primary-97);
+  --color-primary-99: var(--primary-99);
+  --color-secondary-10: var(--secondary-10);
+  --color-secondary-15: var(--secondary-15);
+  --color-secondary-20: var(--secondary-20);
+  --color-secondary-30: var(--secondary-30);
+  --color-secondary-35: var(--secondary-35);
+  --color-secondary-40: var(--secondary-40);
+  --color-secondary-60: var(--secondary-60);
+  --color-secondary-90: var(--secondary-90);
+}

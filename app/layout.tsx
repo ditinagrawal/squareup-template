@@ -1,0 +1,27 @@
+import type { Metadata } from "next";
+import { Barlow } from "next/font/google";
+
+import "./globals.css";
+
+const barlow = Barlow({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+});
+
+export const metadata: Metadata = {
+  title: "Creative Web Studio - BBPixels",
+  description:
+    "BBPixels is a creative web studio that specializes in building websites and web applications.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={`${barlow.className} antialiased`}>{children}</body>
+    </html>
+  );
+}
