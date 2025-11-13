@@ -19,7 +19,7 @@ export const Footer = () => {
       <Container>
         <footer className="flex h-full flex-col justify-between gap-8">
           <div className="flex items-center justify-between">
-            <Logo />
+            <Logo showText />
             <div className="flex items-center gap-6">
               <Link href="/">Home</Link>
               <Link href="/services">Services</Link>

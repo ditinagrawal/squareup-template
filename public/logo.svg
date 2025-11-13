@@ -1,24 +1,7 @@
-<svg width="201" height="200" viewBox="0 0 201 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#filter0_i_403_20588)">
-        <rect width="200.939" height="200" rx="20" fill="#9EFF00" />
-        <path d="M47.1365 68.5715L100.47 100V160L47.1365 129.524L47.1365 68.5715Z" fill="#1A1A1A" />
-        <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M105.176 99.9579V151.891L149.097 126.793V74.0756L105.176 99.9579ZM153.803 129.524L100.47 160V99.9999L47.1364 68.5714L100.47 40L153.803 68.5714V129.524ZM146.63 70.0673L100.47 45.3386L56.7371 68.7668L102.787 95.9033L146.63 70.0673Z"
-            fill="#1A1A1A" />
-    </g>
-    <defs>
-        <filter id="filter0_i_403_20588" x="0" y="0" width="200.939" height="200" filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                result="hardAlpha" />
-            <feMorphology radius="16" operator="erode" in="SourceAlpha" result="effect1_innerShadow_403_20588" />
-            <feOffset />
-            <feGaussianBlur stdDeviation="11.5" />
-            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" />
-            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_403_20588" />
-        </filter>
-    </defs>
+<svg width="107" height="120" viewBox="0 0 107 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0.000153931 28.5715L53.3335 60.0001L53.3335 120L0.000152588 89.5238L0.000153931 28.5715Z"
+        fill="#1A1A1A" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M58.0392 59.9579V111.891L101.961 86.7928V34.0756L58.0392 59.9579ZM106.667 89.5237L53.3333 120V59.9999L0 28.5714L53.3333 0L106.667 28.5714V89.5237ZM99.4936 30.0673L53.3333 5.33861L9.60071 28.7668L55.6506 55.9033L99.4936 30.0673Z"
+        fill="#1A1A1A" />
 </svg>
