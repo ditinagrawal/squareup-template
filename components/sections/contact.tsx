@@ -7,7 +7,7 @@ import { SectionDescription, SectionTitle } from "@/components/ui/typography";
 export const Contact = () => {
   return (
     <section>
-      <div className="border-secondary-15 relative border-b py-20">
+      <div className="border-secondary-15 relative border-b mask-r-from-50% mask-l-from-50% py-20">
         <Pattern />
         <div className="flex flex-col items-center justify-center gap-4 text-center">
           <Logo />

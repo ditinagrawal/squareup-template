@@ -33,7 +33,7 @@ export const SectionHeader = ({
   description: string;
 }) => {
   return (
-    <div className="border-secondary-15 relative border-b py-20">
+    <div className="border-secondary-15 relative border-b mask-r-from-50% mask-l-from-50% py-20">
       <Pattern />
       <div className="space-y-2 text-center">
         <SectionTitle text={title} />
