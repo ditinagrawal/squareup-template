@@ -1,6 +1,7 @@
 import { Clients } from "@/components/sections/clients";
 import { Hero } from "@/components/sections/hero";
 import { Services } from "@/components/sections/services";
+import { Testimonial } from "@/components/sections/testimonial";
 import { WhyUs } from "@/components/sections/why-us";
 import { Footer } from "@/components/shared/footer";
 import { Navbar } from "@/components/shared/navbar";
@@ -15,6 +16,7 @@ export const HomeView = () => {
         <Clients />
         <Services />
         <WhyUs />
+        <Testimonial />
       </Container>
       <Footer />
     </div>

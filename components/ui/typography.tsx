@@ -18,7 +18,11 @@ export const SectionDescription = ({
   text: string;
   className?: string;
 }) => {
-  return <p className={cn("text-secondary-90 text-sm", className)}>{text}</p>;
+  return (
+    <p className={cn("text-secondary-90 mx-auto max-w-2xl text-sm", className)}>
+      {text}
+    </p>
+  );
 };
 
 export const SectionHeader = ({
