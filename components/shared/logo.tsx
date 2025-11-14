@@ -14,7 +14,7 @@ export const Logo = ({
       <div className="bg-primary-50 flex size-12 items-center justify-center rounded-md">
         <Image
           src="/logo.svg"
-          alt="BB Pixels"
+          alt="SquareUp"
           width={100}
           height={100}
           draggable={false}
@@ -22,7 +22,7 @@ export const Logo = ({
           className={cn("size-8", className)}
         />
       </div>
-      {showText && <span className="text-lg font-semibold">BB Pixels</span>}
+      {showText && <span className="text-lg font-semibold">SquareUp</span>}
     </div>
   );
 };

@@ -35,18 +35,18 @@ export const Footer = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Link
-                href="mailto:info@bbpixels.in"
+                href="mailto:info@squareup.in"
                 className="flex items-center gap-2"
               >
                 <IconMailFilled className="text-primary-50 size-4" />
-                <span>info@bbpixels.in</span>
+                <span>info@squareup.in</span>
               </Link>
               <Link
-                href="tel:+918958446414"
+                href="tel:+919999999999"
                 className="flex items-center gap-2"
               >
                 <IconPhoneFilled className="text-primary-50 size-4" />
-                <span>+91 8958446414</span>
+                <span>+91 9999999999</span>
               </Link>
               <p className="flex items-center gap-2">
                 <IconMapPinFilled className="text-primary-50 size-4" />
@@ -55,7 +55,7 @@ export const Footer = () => {
             </div>
             <div>
               <p className="text-secondary-60 text-sm">
-                © {new Date().getFullYear()} BB Pixels. All rights reserved.
+                © {new Date().getFullYear()} SquareUp. All rights reserved.
               </p>
             </div>
           </div>

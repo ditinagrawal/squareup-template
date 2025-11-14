@@ -9,9 +9,9 @@ const barlow = Barlow({
 });
 
 export const metadata: Metadata = {
-  title: "Creative Web Studio | BB Pixels",
+  title: "Creative Web Studio | SquareUp",
   description:
-    "BB Pixels is a creative web studio that specializes in building websites and web applications.",
+    "SquareUp is a creative web studio that specializes in building websites and web applications.",
 };
 
 export default function RootLayout({
