@@ -1,3 +1,4 @@
+import { Clients } from "@/components/sections/clients";
 import { Hero } from "@/components/sections/hero";
 import { Footer } from "@/components/shared/footer";
 import { Navbar } from "@/components/shared/navbar";
@@ -9,6 +10,7 @@ export const HomeView = () => {
       <Navbar />
       <Container className="border-secondary-15 border-x">
         <Hero />
+        <Clients />
       </Container>
       <Footer />
     </div>
