@@ -7,7 +7,7 @@ import { Container } from "@/components/ui/container";
 export const Navbar = () => {
   return (
     <div className="border-secondary-15 border-b py-6">
-      <Container>
+      <Container className="px-4 xl:px-0">
         <nav className="flex items-center justify-between">
           <Logo showText />
           <div className="flex items-center gap-4">

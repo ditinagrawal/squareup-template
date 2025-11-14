@@ -17,7 +17,7 @@ import { Container } from "@/components/ui/container";
 export const Footer = () => {
   return (
     <div className="border-secondary-15 border-t py-12">
-      <Container>
+      <Container className="px-4 xl:px-0">
         <footer className="flex h-full flex-col justify-between gap-8">
           <div className="flex items-center justify-between">
             <Logo showText />
