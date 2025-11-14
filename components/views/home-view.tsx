@@ -1,4 +1,6 @@
 import { Clients } from "@/components/sections/clients";
+import { Contact } from "@/components/sections/contact";
+import { FAQ } from "@/components/sections/faq";
 import { Hero } from "@/components/sections/hero";
 import { Services } from "@/components/sections/services";
 import { Testimonial } from "@/components/sections/testimonial";
@@ -17,6 +19,8 @@ export const HomeView = () => {
         <Services />
         <WhyUs />
         <Testimonial />
+        <FAQ />
+        <Contact />
       </Container>
       <Footer />
     </div>
