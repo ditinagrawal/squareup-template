@@ -6,7 +6,7 @@ import { Pattern } from "@/components/ui/pattern";
 
 export const Hero = () => {
   return (
-    <section className="border-secondary-15 relative border-b py-28">
+    <section className="border-secondary-15 relative border-b py-42">
       <Pattern />
       <div className="flex flex-col items-center justify-center gap-8 text-center">
         <h1 className="text-5xl leading-[1.1] font-semibold text-shadow-2xs">
