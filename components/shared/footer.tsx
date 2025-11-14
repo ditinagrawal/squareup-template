@@ -2,6 +2,7 @@ import {
   IconBrandFacebookFilled,
   IconBrandLinkedinFilled,
   IconBrandXFilled,
+  IconHeart,
   IconMailFilled,
   IconMapPinFilled,
   IconPhoneFilled,
@@ -57,6 +58,27 @@ export const Footer = () => {
                 © {new Date().getFullYear()} BB Pixels. All rights reserved.
               </p>
             </div>
+          </div>
+          <div className="flex items-center justify-center">
+            <p className="text-secondary-60 flex items-center gap-1 text-sm">
+              Designed by{" "}
+              <Link
+                href="https://x.com/Praha37v"
+                target="_blank"
+                className="text-primary-60"
+              >
+                @praha,
+              </Link>
+              Developed by{" "}
+              <Link
+                href="https://x.com/ditinagrawal"
+                target="_blank"
+                className="text-primary-60"
+              >
+                @ditinagrawal
+              </Link>{" "}
+              with <IconHeart className="size-4 fill-rose-500 text-rose-500" />
+            </p>
           </div>
         </footer>
       </Container>
