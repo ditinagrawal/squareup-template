@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 
 export const WhyUs = () => {
   return (
-    <div className="border-secondary-15 border-b">
+    <section className="border-secondary-15 border-b">
       <SectionHeader
         title="Why Choose SquareUp?"
         description="Experience excellence in digital craftsmanship with our team of skilled professionals dedicated to delivering exceptional results."
@@ -41,7 +41,7 @@ export const WhyUs = () => {
           description="We value long-term relationships with our clients. We see ourselves as your digital partner, providing ongoing support, maintenance, and updates to ensure your digital products continue to thrive."
         />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 export const Testimonial = () => {
   return (
-    <div className="border-secondary-15 border-b">
+    <section className="border-secondary-15 border-b">
       <SectionHeader
         title="What our Clients say About us"
         description="At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. Here's what some of our satisfied clients have to say about their experience working with us."
@@ -60,7 +60,7 @@ export const Testimonial = () => {
           position="CEO at FitLife Company"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

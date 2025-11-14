@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 export const FAQ = () => {
   return (
-    <div className="border-secondary-15 border-b">
+    <section className="border-secondary-15 border-b">
       <SectionHeader
         title="Frequently Asked Questions"
         description="Still you have any questions? Contact our Team via hello@squareup.com"
@@ -60,7 +60,7 @@ export const FAQ = () => {
           answer="SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more."
         />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -6,7 +6,7 @@ import { SectionHeader } from "@/components/ui/typography";
 
 export const Services = () => {
   return (
-    <div className="border-secondary-15 border-b">
+    <section className="border-secondary-15 border-b">
       <SectionHeader
         title="Our Services"
         description="Transform your brand with our innovative digital solutions that captivate and engage your audience."
@@ -28,7 +28,7 @@ export const Services = () => {
           icon={IconChartBar}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

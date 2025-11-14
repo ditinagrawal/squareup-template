@@ -6,7 +6,7 @@ import { SectionDescription, SectionTitle } from "@/components/ui/typography";
 
 export const Contact = () => {
   return (
-    <div>
+    <section>
       <div className="border-secondary-15 relative border-b py-20">
         <Pattern />
         <div className="flex flex-col items-center justify-center gap-4 text-center">
@@ -22,6 +22,6 @@ export const Contact = () => {
         </div>
       </div>
       <ContactForm />
-    </div>
+    </section>
   );
 };
