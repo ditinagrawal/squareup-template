@@ -2,7 +2,6 @@ import {
   IconBrandFacebookFilled,
   IconBrandLinkedinFilled,
   IconBrandXFilled,
-  IconHeart,
   IconMailFilled,
   IconMapPinFilled,
   IconPhoneFilled,
@@ -19,9 +18,9 @@ export const Footer = () => {
     <div className="border-secondary-15 border-t py-12">
       <Container className="px-4 xl:px-0">
         <footer className="flex h-full flex-col justify-between gap-8">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
             <Logo showText />
-            <div className="flex items-center gap-6">
+            <div className="flex flex-wrap items-center justify-center gap-6">
               <Link href="/">Home</Link>
               <Link href="/services">Services</Link>
               <Link href="/work">Work</Link>
@@ -32,8 +31,8 @@ export const Footer = () => {
             <Socials />
           </div>
           <div className="bg-secondary-15 h-px w-full" />
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+          <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
+            <div className="flex flex-col items-center gap-4 md:flex-row">
               <Link
                 href="mailto:info@squareup.in"
                 className="flex items-center gap-2"
@@ -59,27 +58,24 @@ export const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-center">
-            <p className="text-secondary-60 flex items-center gap-1 text-sm">
-              Designed by{" "}
-              <Link
-                href="https://x.com/Praha37v"
-                target="_blank"
-                className="text-primary-60"
-              >
-                @praha,
-              </Link>
-              Developed by{" "}
-              <Link
-                href="https://x.com/ditinagrawal"
-                target="_blank"
-                className="text-primary-60"
-              >
-                @ditinagrawal
-              </Link>{" "}
-              with <IconHeart className="size-4 fill-rose-500 text-rose-500" />
-            </p>
-          </div>
+          <p className="text-secondary-60 flex items-center justify-center gap-1 text-sm">
+            Designed by{" "}
+            <Link
+              href="https://x.com/Praha37v"
+              target="_blank"
+              className="text-primary-60"
+            >
+              @praha,
+            </Link>
+            Developed by{" "}
+            <Link
+              href="https://x.com/ditinagrawal"
+              target="_blank"
+              className="text-primary-60"
+            >
+              @ditinagrawal.
+            </Link>
+          </p>
         </footer>
       </Container>
     </div>
