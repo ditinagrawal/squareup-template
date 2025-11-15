@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SquareUp - Digital Product Studio Template
 
-## Getting Started
+![Banner](./public/banner.png)
 
-First, run the development server:
+A modern, responsive Next.js template for digital product studios, agencies, and creative businesses. Built with TypeScript, Tailwind CSS, and Next.js 16.
+
+## ✨ Features
+
+- 🎨 **Modern Design** - Clean, professional UI with smooth animations
+- 📱 **Fully Responsive** - Optimized for all devices and screen sizes
+- ⚡ **Fast Performance** - Built with Next.js 16 for optimal speed
+- 🎯 **Complete Sections** - Hero, Services, Clients, Testimonials, FAQ, and Contact
+- 🛠️ **Type-Safe** - Full TypeScript support
+- 🎭 **Customizable** - Easy to modify colors, content, and styling
+- 🔧 **Developer Friendly** - Clean code structure with Biome for linting
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ or Bun
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd squareup
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+bun install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+squareup/
+├── app/                 # Next.js app directory
+├── components/
+│   ├── sections/       # Page sections (Hero, Services, etc.)
+│   ├── shared/         # Shared components (Navbar, Footer)
+│   └── ui/             # Reusable UI components
+├── lib/                # Utility functions
+└── public/             # Static assets
+```
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 16
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS 4
+- **Icons:** Tabler Icons
+- **Linting:** Biome
+- **Package Manager:** Bun (or npm/yarn/pnpm)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Available Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run Biome linter
+- `npm run format` - Format code with Biome
 
-## Deploy on Vercel
+## 🎨 Customization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Colors:** Modify the color scheme in `app/globals.css`
+2. **Content:** Update text and images in component files
+3. **Sections:** Add or remove sections in `components/views/home-view.tsx`
+4. **Logo:** Replace `public/logo.svg` with your own logo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🙏 Credits
+
+- **Design:** [@praha](https://x.com/Praha37v)
+- **Development:** [@ditinagrawal](https://x.com/ditinagrawal)
+
+---
+
+Made with ❤️ for digital product studios
