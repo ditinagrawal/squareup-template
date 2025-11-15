@@ -13,7 +13,10 @@ export const Hero = () => {
           A Digital Product Studio <br />
           that will Work
         </h1>
-        <div className="border-secondary-15 bg-secondary-15/30 rounded-lg border px-4 py-5 backdrop-blur-md">
+        <div className="border-secondary-15 bg-secondary-15/30 mx-auto max-w-sm rounded-lg border px-4 py-5 backdrop-blur-md md:hidden">
+          For startups, enterprise leaders, media & publishers and social good.
+        </div>
+        <div className="border-secondary-15 bg-secondary-15/30 hidden rounded-lg border px-4 py-5 backdrop-blur-md md:block">
           For{" "}
           <span className="bg-secondary-20 mx-1 rounded-md p-2">Startups</span>,{" "}
           <span className="bg-secondary-20 mx-1 rounded-md px-4 py-2">

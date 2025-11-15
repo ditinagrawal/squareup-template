@@ -31,7 +31,7 @@ export const Clients = () => {
   return (
     <section className="border-secondary-15 relative border-b py-12">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 backdrop-blur-sm">
-        <div className="border-secondary-15 rounded-full border px-4 py-2">
+        <div className="border-secondary-15 rounded-full border px-4 py-2 text-sm max-md:text-xs">
           Trusted by 250+ Companies
         </div>
       </div>

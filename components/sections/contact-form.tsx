@@ -4,13 +4,13 @@ export const ContactForm = () => {
   return (
     <div className="border-secondary-15 mx-auto max-w-3xl border-x">
       <form className="space-y-6 p-12">
-        <div className="flex items-center justify-between gap-6">
+        <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:justify-between">
           <InputField label="Name" name="name" type="text" />
           <InputField label="Email" name="email" type="email" />
         </div>
         <div className="border-secondary-15 bg-secondary-20/20 w-full space-y-6 rounded border p-4">
           <h4 className="font-medium">Why are you contacting us?</h4>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div className="flex items-center gap-2">
               <input
                 type="checkbox"

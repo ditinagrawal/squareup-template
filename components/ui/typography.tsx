@@ -8,7 +8,16 @@ export const SectionTitle = ({
   text: string;
   className?: string;
 }) => {
-  return <h2 className={cn("text-4xl font-bold", className)}>{text}</h2>;
+  return (
+    <h2
+      className={cn(
+        "mx-auto text-2xl font-bold max-md:max-w-sm md:text-4xl",
+        className,
+      )}
+    >
+      {text}
+    </h2>
+  );
 };
 
 export const SectionDescription = ({
@@ -19,7 +28,12 @@ export const SectionDescription = ({
   className?: string;
 }) => {
   return (
-    <p className={cn("text-secondary-90 mx-auto max-w-2xl text-sm", className)}>
+    <p
+      className={cn(
+        "text-secondary-90 mx-auto max-w-2xl text-sm max-md:max-w-sm md:text-base",
+        className,
+      )}
+    >
       {text}
     </p>
   );
