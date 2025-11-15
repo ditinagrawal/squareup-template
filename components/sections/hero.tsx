@@ -32,13 +32,10 @@ export const Hero = () => {
           </span>
         </div>
         <div className="space-x-4">
-          <Link href="/work" className={buttonVariants({ variant: "outline" })}>
+          <Link href="/" className={buttonVariants({ variant: "outline" })}>
             Our Works
           </Link>
-          <Link
-            href="/contact"
-            className={buttonVariants({ variant: "primary" })}
-          >
+          <Link href="/" className={buttonVariants({ variant: "primary" })}>
             Contact Us
           </Link>
         </div>

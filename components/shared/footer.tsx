@@ -22,11 +22,11 @@ export const Footer = () => {
             <Logo showText />
             <div className="flex flex-wrap items-center justify-center gap-6">
               <Link href="/">Home</Link>
-              <Link href="/services">Services</Link>
-              <Link href="/work">Work</Link>
-              <Link href="/process">Process</Link>
-              <Link href="/about">About</Link>
-              <Link href="/contact">Contact</Link>
+              <Link href="/">Services</Link>
+              <Link href="/">Work</Link>
+              <Link href="/">Process</Link>
+              <Link href="/">About</Link>
+              <Link href="/">Contact</Link>
             </div>
             <Socials />
           </div>

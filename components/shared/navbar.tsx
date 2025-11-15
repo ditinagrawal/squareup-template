@@ -17,21 +17,21 @@ export const Navbar = () => {
             <Link href="/" className={buttonVariants({ variant: "secondary" })}>
               Home
             </Link>
-            <Link href="/services" className={buttonVariants()}>
+            <Link href="/" className={buttonVariants()}>
               Services
             </Link>
-            <Link href="/work" className={buttonVariants()}>
+            <Link href="/" className={buttonVariants()}>
               Work
             </Link>
-            <Link href="/process" className={buttonVariants()}>
+            <Link href="/" className={buttonVariants()}>
               Process
             </Link>
-            <Link href="/about" className={buttonVariants()}>
+            <Link href="/" className={buttonVariants()}>
               About
             </Link>
           </div>
           <Link
-            href="/contact"
+            href="/"
             className={cn(
               buttonVariants({ variant: "primary" }),
               "hidden md:block",
