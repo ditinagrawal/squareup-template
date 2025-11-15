@@ -1,8 +1,11 @@
+import { IconMenuDeep } from "@tabler/icons-react";
+
 import Link from "next/link";
 
 import { Logo } from "@/components/shared/logo";
-import { buttonVariants } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
+import { cn } from "@/lib/utils";
 
 export const Navbar = () => {
   return (
@@ -10,7 +13,7 @@ export const Navbar = () => {
       <Container className="px-4 xl:px-0">
         <nav className="flex items-center justify-between">
           <Logo showText />
-          <div className="flex items-center gap-4">
+          <div className="hidden items-center gap-4 md:flex">
             <Link href="/" className={buttonVariants({ variant: "secondary" })}>
               Home
             </Link>
@@ -29,12 +32,28 @@ export const Navbar = () => {
           </div>
           <Link
             href="/contact"
-            className={buttonVariants({ variant: "primary" })}
+            className={cn(
+              buttonVariants({ variant: "primary" }),
+              "hidden md:block",
+            )}
           >
             Contact Us
           </Link>
+          <MobileNavbar />
         </nav>
       </Container>
+    </div>
+  );
+};
+
+const MobileNavbar = () => {
+  return (
+    <div className="md:hidden">
+      <div>
+        <Button variant="secondary">
+          <IconMenuDeep className="text-primary-70 size-5" />
+        </Button>
+      </div>
     </div>
   );
 };
